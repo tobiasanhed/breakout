@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{1E86AF23-6BA1-4DB0-921F-B4C9482F19F5}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Breakout/Breakout/Breakout.cs">
+    <Files>
+      <File FileName="Breakout/Engine/Managers/PhysicsManager.cs" Line="131" Column="6" />
+      <File FileName="Breakout/Breakout/Breakout.cs" Line="56" Column="1" />
+      <File FileName="Breakout/Engine/Managers/ParticleManager.cs" Line="1" Column="1" />
+      <File FileName="Breakout/Engine/Engine.cs" Line="1" Column="1" />
+      <File FileName="Breakout/Program.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Breakout PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
