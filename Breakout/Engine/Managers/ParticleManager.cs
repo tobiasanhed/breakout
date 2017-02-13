@@ -17,8 +17,8 @@ namespace Breakout.Engine.Managers
 		{
 			for (int i = 0; i < particles.Count; i++){
 				particles[i].TTL--;
-				particles[i].Position += particles[i].Velocity;
-				particles[i].Angle += particles[i].AngularVelocity;
+				particles[i].Position += particles[i].Velocity * dt;
+				particles[i].Angle += particles[i].AngularVelocity * dt;
 
 				if(particles[i].TTL <= 0){
 					particles.RemoveAt(i);
@@ -40,8 +40,8 @@ namespace Breakout.Engine.Managers
 		public void generateNewParticle(Vector2 position){
 			Texture2D texture = particleTexture;
 			Vector2 velocity = new Vector2(
-				1f * (float)(random.NextDouble() * 2 - 1),
-				1f * (float)(random.NextDouble() * 2 - 1));
+				400f * (float)(random.NextDouble() * 2 - 1),
+				400f * (float)(random.NextDouble() * 2 - 1));
 			float angle = 0;
 			float angularVelocity = 0.1f * (float)(random.NextDouble() * 2 - 1);
 			Color color = new Color(

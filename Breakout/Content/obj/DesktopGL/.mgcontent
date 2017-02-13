@@ -4,14 +4,14 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>/Users/Darko/Dropbox/Projekt/Breakout/Breakout/Breakout/Content/ball.png</File>
-    <File>/Users/Darko/Dropbox/Projekt/Breakout/Breakout/Breakout/Content/brick.png</File>
-    <File>/Users/Darko/Dropbox/Projekt/Breakout/Breakout/Breakout/Content/player.png</File>
-    <File>/Users/Darko/Dropbox/Projekt/Breakout/Breakout/Breakout/Content/score.spritefont</File>
-    <File>/Users/Darko/Dropbox/Projekt/Breakout/Breakout/Breakout/Content/particle_black.png</File>
-    <File>/Users/Darko/Dropbox/Projekt/Breakout/Breakout/Breakout/Content/particle.png</File>
-    <File>/Users/Darko/Dropbox/Projekt/Breakout/Breakout/Breakout/Content/player_black.png</File>
-    <File>/Users/Darko/Dropbox/Projekt/Breakout/Breakout/Breakout/Content/brick_white.png</File>
-    <File>/Users/Darko/Dropbox/Projekt/Breakout/Breakout/Breakout/Content/ball_square.png</File>
+    <File>/Users/Darko/kod/breakout/Breakout/Breakout/Content/ball.png</File>
+    <File>/Users/Darko/kod/breakout/Breakout/Breakout/Content/brick.png</File>
+    <File>/Users/Darko/kod/breakout/Breakout/Breakout/Content/player.png</File>
+    <File>/Users/Darko/kod/breakout/Breakout/Breakout/Content/score.spritefont</File>
+    <File>/Users/Darko/kod/breakout/Breakout/Breakout/Content/particle_black.png</File>
+    <File>/Users/Darko/kod/breakout/Breakout/Breakout/Content/particle.png</File>
+    <File>/Users/Darko/kod/breakout/Breakout/Breakout/Content/player_black.png</File>
+    <File>/Users/Darko/kod/breakout/Breakout/Breakout/Content/brick_white.png</File>
+    <File>/Users/Darko/kod/breakout/Breakout/Breakout/Content/ball_square.png</File>
   </SourceFiles>
 </SourceFileCollection>
