@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{1E86AF23-6BA1-4DB0-921F-B4C9482F19F5}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Breakout/Engine/Managers/ParticleManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Breakout/Engine/Managers/PhysicsManager.cs">
     <Files>
-      <File FileName="Breakout/Engine/Managers/PhysicsManager.cs" Line="175" Column="14" />
+      <File FileName="Breakout/Engine/Managers/PhysicsManager.cs" Line="143" Column="18" />
       <File FileName="Breakout/Breakout/Breakout.cs" Line="56" Column="1" />
-      <File FileName="Breakout/Engine/Managers/ParticleManager.cs" Line="34" Column="6" />
+      <File FileName="Breakout/Engine/Managers/ParticleManager.cs" Line="18" Column="34" />
       <File FileName="Breakout/Engine/Engine.cs" Line="1" Column="1" />
       <File FileName="Breakout/Program.cs" Line="1" Column="1" />
     </Files>

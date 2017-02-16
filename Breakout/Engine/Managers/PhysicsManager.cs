@@ -124,32 +124,21 @@ namespace Breakout.Engine.Managers {
 					velocity.x *= -1;
 				}
 				else {
-					// Applying the Pythagorean theorem, calculate the ball's overall
-					// speed from its X and Y components.  This will always be a
-					// positive value.
+					// Pythagoras på X och Y hastigheten för att räkna ut totala hastigheten.
 					float speedXY = (float)Math.Sqrt((velocity.x * velocity.x) + (velocity.y * velocity.y));
 
-					// Calculate the position of the ball relative to the center of
-					// the paddle, and express this as a number between -1 and +1.
-					// (Note: collisions at the ends of the paddle may exceed this
-					// range, but that is fine.)
+					// Räkna ut bollens position relativt center av paddlen, resultat är emellan -1 och +1.
 					float posX = (position.x - pos2.x) / (spr2.texture.Width * 0.5f);
 
-					// Define an empirical value (tweak as needed) for controlling
-					// the amount of influence the ball's position against the paddle
-					// has on the X speed.  This number must be between 0 and 1.
+					// Värde mellan 0 och 1 för hur mycket påverkan det ska ha på x-hastighet.
 					float influenceX = 0.5f;
 
-					// Let the new X speed be proportional to the ball position on
-					// the paddle.  Also make it relative to the original speed and
-					// limit it by the influence factor defined above.
+					// Räkna ut nya X-hastigheten baserat på vart den träffar paddlen, 
+					// gör den även relativ till originalhastighet och tweaka efter influenceX ovan.
 					velocity.x = speedXY * posX * influenceX;
 
-					// Finally, based on the new X speed, calculate the new Y speed
-					// such that the new overall speed is the same as the old.  This
-					// is another application of the Pythagorean theorem.  The new
-					// Y speed will always be nonzero as long as the X speed is less
-					// than the original overall speed.
+					// Baserat på nya x-hastigheten, räkna ut nya y-hastigheten så den totala hastigheten blir samma
+					// som innan. Återigen pythagoras sats.
 					velocity.y = (float)Math.Sqrt((speedXY * speedXY) - (velocity.x * velocity.x)) *
 						(velocity.y > 0 ? -1 : 1);
 
